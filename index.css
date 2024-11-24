@@ -1,0 +1,144 @@
+/* Reset cơ bản */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 2px solid #ddd; /* Thêm đường viền cho container */
+  }
+  
+  /* Cột trái */
+  .left-column {
+    width: 33%; /* Điều chỉnh lại tỷ lệ */
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-right: 2px solid #ddd; /* Đường viền bên phải của cột trái */
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding: 10px; /* Khoảng cách cho section */
+    border: 1px solid #ddd; /* Đường viền cho section */
+    border-radius: 5px; /* Bo góc cho section */
+  }
+  
+  .section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #16a085;
+    padding-bottom: 5px;
+  }
+  
+  /* Nút thêm mới */
+  .add-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #16a085;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #16a085; /* Đường viền cho nút thêm */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Giữ chuyển động */
+  }
+  
+  .add-btn:hover {
+    background-color: #138a72;
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+  }
+  
+  /* Nút chỉnh sửa */
+  .edit-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #16a085;
+    color: #fff;
+    margin-right: 5px;
+    border: 1px solid #16a085; /* Đường viền cho nút sửa */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Giữ chuyển động */
+  }
+  
+  .edit-btn:hover {
+    background-color: #138a72;
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+  }
+  
+  /* Nút xóa */
+  .delete-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #e74c3c;
+    color: #fff;
+    border: 1px solid #e74c3c; /* Đường viền cho nút xóa */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Giữ chuyển động */
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+  }
+  
+  /* Cột phải */
+  .right-column {
+    width: 67%; /* Điều chỉnh lại tỷ lệ */
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-left: 2px solid #ddd; /* Đường viền bên trái của cột phải */
+  }
+  
+  .right-column .section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #16a085;
+    border-bottom: 2px solid #16a085;
+    padding-bottom: 5px;
+  }
+  
+  .right-column .section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .right-column .job h3 {
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 5px;
+  }
+  
+  .right-column .job ul {
+    padding-left: 20px;
+    list-style: disc;
+  }
+  
+  .right-column .job ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  
+  
+  
